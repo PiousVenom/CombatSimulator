@@ -1,0 +1,9 @@
+language: csharp
+mono: latest
+solution: CombatSimulator.sln
+dotnet: 5.0
+before_script:
+  - dotnet restore
+script:
+  - dotnet build CombatSimulator.sln
+
